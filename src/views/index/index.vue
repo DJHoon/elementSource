@@ -9,8 +9,10 @@ export default {
     methods: {
         testMessage() {
            this.$message({
-                title: '我是标题',
-                content: '我是内容'
+                message: '我是标题',
+                type: 'success',
+                // duration: 0,
+                showClose: true
             })
         }
     },
